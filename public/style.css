@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 700px;
+    margin: 20px auto;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    height: 70px;
+    background-color: #c1c1c1;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+#nav-half{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    /* margin: auto; */
+}
+
+#url-box{
+    width: 80%;
+}
+
+.input-icons i {
+    position: absolute;
+    margin: 2px 0px 0px 5px;
+}
+ 
+.input-icons {
+    width: 10%;
+    margin-right: 15px;
+}
+
+#input-field{
+    width: 100%;
+    border-radius: 10px;
+}
+
+header h3{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-weight: normal;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding-top: 25px;
+
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+}
+
+main form h3{
+    padding-bottom: 7px;
+    font-weight: normal;
+}
+
+#message{
+    border: 2px solid black;
+    height: 60px;
+    margin-left: 5px;
+}
+
+button{
+    width: 25%;
+    background-color: #3F78BE;
+    border: 2px solid black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2px;
+}
+
+#name{
+    padding-left: 3px;
+    border: 2px solid black;
+}
+
+#submit-form{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+#output-posts{
+    font-family: lato;
+    font-style: normal;
+    line-height: 21px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#output-posts h5{
+    margin-bottom: 5px;
+}
+
+#output-posts p{
+    padding-left: 25px;
+}
+
+#comment-output{
+    font-family: lato;
+    font-style: italic;
+    line-height: 21px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#part-two-output{
+    width: 90%;
+    margin-left: 10%;
+}
+
+#comment{
+    border-top: 2px solid black;
+    height: 30px;
+    margin-bottom: 7px;
+}
+
+#second-btn{
+    background-color: #459824;
+    width: 25%;
+    border: 2px solid black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2px;
+}
+
+#move-btn{
+    display: flex;
+    justify-content: right;
+}
+
+footer{
+    margin-top: 30px;
+    border-top: 2px solid black;
+    height: 25px;
+    background-color: #c1c1c1;
+}
